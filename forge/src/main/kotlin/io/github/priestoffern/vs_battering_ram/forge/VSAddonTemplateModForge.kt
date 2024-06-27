@@ -1,11 +1,11 @@
-package io.github.techtastic.vs_addon_template.forge
+package io.github.priestoffern.vs_battering_ram.forge
 
+import io.github.priestoffern.battering_ram.VSAddonTemplateMod
+import io.github.priestoffern.battering_ram.VSAddonTemplateMod.init
+import io.github.priestoffern.battering_ram.VSAddonTemplateMod.initClient
 import net.minecraftforge.eventbus.api.IEventBus
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent
-import io.github.techtastic.vs_addon_template.VSAddonTemplateMod
-import io.github.techtastic.vs_addon_template.VSAddonTemplateMod.init
-import io.github.techtastic.vs_addon_template.VSAddonTemplateMod.initClient
 import thedarkcolour.kotlinforforge.forge.MOD_BUS
 
 @Mod(VSAddonTemplateMod.MOD_ID)

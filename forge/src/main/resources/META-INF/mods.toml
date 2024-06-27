@@ -4,7 +4,7 @@ issueTrackerURL = "https://github.com/ValkyrienSkies/Valkyrien-Skies-2/issues"
 license = "Apache-2.0"
 
 [[mods]]
-modId = "vs_addon_template"
+modId = "vs_battering_ram"
 version = "${version}"
 displayName = "VS Addon Template"
 authors = ["TechTastic"]
@@ -13,23 +13,23 @@ An Addon Template for VS2
 '''
 logoFile = "icon.png"
 
-[[dependencies.vs_addon_template]]
+[[dependencies.vs_battering_ram]]
 modId = "forge"
 mandatory = true
 versionRange = "[40.1.69,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.vs_addon_template]]
+[[dependencies.vs_battering_ram]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.vs_addon_template]]
+[[dependencies.vs_battering_ram]]
 modId = "valkyrienskies"
 mandatory = true
-versionRange = "[${vs2_version},)"
+versionRange = "[2.1.1-beta.6+b2211ee382,)"
 ordering = "AFTER"
 side = "BOTH"
