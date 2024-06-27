@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.priestoffern.vs_battering_ram.fabric.VSAddonTemplateModFabric"
+      "io.github.priestoffern.vs_battering_ram.fabric.VSBatteringRamModFabric"
     ],
     "client": [
-      "io.github.priestoffern.vs_battering_ram.fabric.VSAddonTemplateModFabric${'$'}Client"
+      "io.github.priestoffern.vs_battering_ram.fabric.VSBatteringRamModFabric"
     ],
     "preLaunch": [
       "io.github.priestoffern.vs_battering_ram.fabric.ValkyrienPreLaunch"
