@@ -19,7 +19,7 @@
       "io.github.priestoffern.vs_battering_ram.fabric.VSBatteringRamModFabric"
     ],
     "client": [
-      "io.github.priestoffern.vs_battering_ram.fabric.VSBatteringRamModFabric"
+      "io.github.priestoffern.vs_battering_ram.fabric.VSBatteringRamModFabric${'$'}Client"
     ],
     "preLaunch": [
       "io.github.priestoffern.vs_battering_ram.fabric.ValkyrienPreLaunch"

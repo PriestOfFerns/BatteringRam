@@ -1,0 +1,31 @@
+
+{
+  "variants": {
+    "face=wall,facing=south": {
+      "model": "vs_battering_ram:block/wooden_battering_ram"
+    },
+    "face=wall,facing=east": {
+      "model": "vs_battering_ram:block/wooden_battering_ram",
+      "y": 270,
+      "uvlock": true
+    },
+    "face=wall,facing=north": {
+      "model": "vs_battering_ram:block/wooden_battering_ram",
+      "y": 180,
+      "uvlock": true
+    },
+    "face=wall,facing=west": {
+      "model": "vs_battering_ram:block/wooden_battering_ram",
+      "y": 90,
+      "uvlock": true
+    },
+    "face=ceiling": {
+      "model": "vs_battering_ram:block/wooden_battering_ram",
+      "x": 270
+    },
+    "face=floor": {
+      "model": "vs_battering_ram:block/wooden_battering_ram",
+      "x": 90
+    }
+  }
+}
