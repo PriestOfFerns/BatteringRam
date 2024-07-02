@@ -17,6 +17,14 @@ dependencies {
     // Valkyrien Skies 2
     modApi("org.valkyrienskies:valkyrienskies-118-common:${rootProject.vs2_version}")
 
+
+    modCompileOnly("com.simibubi.create:create-fabric-${minecraft_version}:${create_fabric_version}")
+            { exclude group: 'com.github.AlphaMode', module: 'fakeconfigtoml' }
+    modCompileOnly("net.fabricmc.fabric-api:fabric-api:${fabric_api_version}")
+    modCompileOnly("com.jozufozu.flywheel:flywheel-fabric-${minecraft_version}:${flywheel_version_fabric}")
+
+
+
     // VS Core
     compileOnly("org.valkyrienskies.core:api:${rootProject.vs_core_version}")
     compileOnly("org.valkyrienskies.core:api-game:${rootProject.vs_core_version}")
